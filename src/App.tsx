@@ -1,8 +1,8 @@
+//adam ben david 208298257
+//aviv menahem 212292197
 import React from "react";
-import Board from "./components/Board";
+import Game from "./components/Game";
 
-const App: React.FC = () => (
-  <Board board={Array(9).fill(null)} onClick={() => {}} />
-);
+const App: React.FC = () => <Game />;
 
 export default App;
